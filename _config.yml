@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Abhigna Reddy Musku
+email: musku.ab@northeastern.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Hi There!
+  I'm Abhigna. I'm a 2nd Year Master's Student of Industrial Engineering (Data Science and Analytics Track) at Northeastern University, Boston.
+  I'm currently working with Professor Summer Xiao on analyzing the nature of financial comments using advanced Natural Language Processing (NLP) techniques.
+  
+  I recently completed an internship at Tesla in their Environmental,Health,Safety and Security divison.I worked with Vitoria Staniszewski, Aniket Pujari and others, working on analyzing Safety Events data and conducting Job Hazard Analysis to enhance workplace safety!
+  
+  I completed my undergraduate degree in Mechanical Engineering with a Minor in Finance from BITS Pilani,Hyderabad.
+
+  I'm an innately curious person and an Eternal optimist. I love pushing myself and collaborating with people to work on challenging problems.
+  Outside of work,I'm really passionate about Yoga and Meditation.I've been practicing Vipassana Meditation for some time now and I love the balance and space it brings into my life. During my free time, you can find me cozing up to a good book or a watching a movie. 
+  
+  If you're interested in my work or shared technical interests,or just want to have a chat,Feel free to reach out!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""https://abhignareddymusku.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  Abhignareddy7211
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
